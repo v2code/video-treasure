@@ -1,0 +1,24 @@
+﻿@model IEnumerable<VideoTreasure.Models.Customer>
+
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>CustomerName</th>
+            <th>CustomerId</th>
+        </tr>
+    </thead>
+    @foreach (var cust in Model)
+    {
+        <tr>
+            <td>@Html.ActionLink(cust.Name, "Details", "Customers", new { id = cust.Id }, null) </td>
+            <td>@cust.Id</td>
+        </tr>
+    }
+</table>
