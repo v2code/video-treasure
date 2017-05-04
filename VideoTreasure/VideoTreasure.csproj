@@ -203,9 +203,26 @@
     <Compile Include="Migrations\201704300258374_UpdateMigrationType.Designer.cs">
       <DependentUpon>201704300258374_UpdateMigrationType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704300314297_IncludeCustomerBirthDate.cs" />
+    <Compile Include="Migrations\201704300314297_IncludeCustomerBirthDate.Designer.cs">
+      <DependentUpon>201704300314297_IncludeCustomerBirthDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704300431114_UpdateGenre.cs" />
+    <Compile Include="Migrations\201704300431114_UpdateGenre.Designer.cs">
+      <DependentUpon>201704300431114_UpdateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704300444356_AddMovieToDatabase.cs" />
+    <Compile Include="Migrations\201704300444356_AddMovieToDatabase.Designer.cs">
+      <DependentUpon>201704300444356_AddMovieToDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704300447259_UpdateGenre1.cs" />
+    <Compile Include="Migrations\201704300447259_UpdateGenre1.Designer.cs">
+      <DependentUpon>201704300447259_UpdateGenre1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -310,6 +327,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201704300258374_UpdateMigrationType.resx">
       <DependentUpon>201704300258374_UpdateMigrationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704300314297_IncludeCustomerBirthDate.resx">
+      <DependentUpon>201704300314297_IncludeCustomerBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704300431114_UpdateGenre.resx">
+      <DependentUpon>201704300431114_UpdateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704300444356_AddMovieToDatabase.resx">
+      <DependentUpon>201704300444356_AddMovieToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704300447259_UpdateGenre1.resx">
+      <DependentUpon>201704300447259_UpdateGenre1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
