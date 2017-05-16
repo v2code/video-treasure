@@ -11,5 +11,8 @@ namespace VideoTreasure.Models
         public string Name { get; set; }
         public Genre Genre { get; set; }
         public int? GenreID { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public int Quantity { get; set; }
+        public DateTime DateAdded { get; set; }
     }
 }
